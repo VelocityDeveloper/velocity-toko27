@@ -2,7 +2,7 @@
     <div class="kontak-header text-md-start align-items-center justify-content-end py-0 m-0">
         <div class="p-0"><?php echo do_shortcode('[kontak style="false"]'); ?></div>
         <div class="profile-icons p-0">
-            <div class="d-flex float-md-end">
+            <div class="d-flex justify-content-md-end align-items-center">
                 <div class="p-2"><?php echo do_shortcode('[profile]'); ?></div>
                 <div class="p-2"><?php echo do_shortcode('[cart]'); ?></div>
             </div>
