@@ -1,10 +1,10 @@
 <div class="container bg-theme text-white py-1 px-2">
     <div class="kontak-header text-md-start align-items-center justify-content-end py-0 m-0">
-        <div class="p-0"><?php echo do_shortcode('[kontak style="false"]'); ?></div>
+        <div class="p-0"><?php echo velocity_toko27_kontak('btn btn-sm btn-link'); ?></div>
         <div class="profile-icons p-0">
             <div class="d-flex justify-content-md-end align-items-center">
-                <div class="p-2"><?php echo do_shortcode('[profile]'); ?></div>
-                <div class="p-2"><?php echo do_shortcode('[cart]'); ?></div>
+                <div class="p-2"><?php echo velocity_toko27_profil(); ?></div>
+                <div class="p-2"><?php echo do_shortcode('[wp_store_cart size="16"]'); ?></div>
             </div>
         </div>
         <div class="p-0" style="max-width: 200px;"><?php echo get_search_form(); ?></div>
@@ -14,8 +14,8 @@
 <div class="card container p-3 rounded-0 border-light border-top-0 border-bottom-0 shadow">
     <div class="haeder-images">
         <?php if (has_header_image()) {
-            echo '<a href="' . get_home_url() . '">';
-            echo '<img class="w-100" src="' . esc_url(get_header_image()) . '" />';
+            echo '<a href="' . esc_url(home_url('/')) . '">';
+            echo '<img class="w-100" src="' . esc_url(get_header_image()) . '" alt="' . esc_attr(get_bloginfo('name')) . '" />';
             echo '</a>';
         } ?>
     </div>

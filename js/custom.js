@@ -1,6 +1,6 @@
 jQuery(function($) {
     $( ".tombols" ).click(function() {
-        $("#searchform").toggle();
+        $("#searchform2").toggle();
         $(".tombols").toggleClass( "collapsed" );
     });
 });
