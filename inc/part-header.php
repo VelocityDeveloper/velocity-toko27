@@ -7,7 +7,7 @@
                 <div class="p-2"><?php echo do_shortcode('[wp_store_cart size="16"]'); ?></div>
             </div>
         </div>
-        <div class="p-0" style="max-width: 200px;"><?php echo get_search_form(); ?></div>
+        <div class="p-0 header-cari" style="max-width: 200px;"><?php echo get_search_form(); ?></div>
     </div>
 </div>
 

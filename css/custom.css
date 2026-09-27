@@ -183,6 +183,8 @@
         display: grid;
         grid-template-columns: auto auto auto auto auto;
     }
+    /* Keranjang di kiri kotak cari: beri jarak agar badge jumlah tidak menempel. */
+    .kontak-header .header-cari {margin-left: .75rem;}
 }
 @media only screen and (max-width: 768px) {
     html, body {
